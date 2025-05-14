@@ -121,8 +121,8 @@ class SampleSettingTab extends PluginSettingTab {
 		containerEl.empty();
 
 		new Setting(containerEl)
-			.setName('Setting #1')
-			.setDesc('It\'s a secret')
+			.setName('Heyo')
+			.setDesc('Sup Boy')
 			.addText(text => text
 				.setPlaceholder('Enter your secret')
 				.setValue(this.plugin.settings.mySetting)
